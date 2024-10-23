@@ -1,0 +1,17 @@
+{
+  "name": "html-differ",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "html_differ_bg.wasm",
+    "html_differ.js",
+    "html_differ_bg.js",
+    "html_differ.d.ts"
+  ],
+  "main": "html_differ.js",
+  "types": "html_differ.d.ts",
+  "sideEffects": [
+    "./html_differ.js",
+    "./snippets/*"
+  ]
+}
